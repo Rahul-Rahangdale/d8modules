@@ -1,0 +1,6 @@
+expose_page_contents:
+  path: '/page_json/{api_key}/{nid}'
+  defaults:
+    _controller: '\Drupal\expose_page_contents\Controller\PageContentJsonResponse::jsonResponse'
+  requirements:
+    _access: 'TRUE'

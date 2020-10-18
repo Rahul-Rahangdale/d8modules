@@ -1,0 +1,5 @@
+name: 'Expose Page Contents'
+description: 'This module exposes the contents of page content type.'
+type: module
+core: 8.x
+package: Custom

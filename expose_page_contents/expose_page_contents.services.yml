@@ -1,0 +1,5 @@
+services:
+  expose_page_contents.route_subscriber:
+    class: Drupal\expose_page_contents\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
