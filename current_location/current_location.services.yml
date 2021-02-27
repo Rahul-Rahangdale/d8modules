@@ -1,0 +1,4 @@
+services:
+  current_location.time:
+    class: 'Drupal\current_location\Services\LocationTime'
+    arguments: ['@config.factory']

@@ -1,0 +1,5 @@
+name: "Current Location"
+type: module
+core_version_requirement: ^8 || ^9
+description: "Provides the functionality to show the location current time based on configurations."
+package: "Custom"

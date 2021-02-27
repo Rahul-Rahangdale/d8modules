@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * This file contains the actions specific to the current location module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function current_location_theme() {
+  return [
+    'location-block' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}

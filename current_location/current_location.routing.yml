@@ -1,0 +1,7 @@
+current_location.config:
+  path: '/admin/config/current-location'
+  defaults:
+    _form: '\Drupal\current_location\Form\LocationConfigForm'
+    _title: 'Location Configurations'
+  requirements:
+    _permission: 'administer site configuration'
