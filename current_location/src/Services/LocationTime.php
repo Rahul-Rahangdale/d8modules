@@ -27,8 +27,8 @@ class LocationTime implements TrustedCallbackInterface {
   /**
    * Returns the current date time with configured timezone.
    *
-   * @return string
-   *   Datetime formatted string.
+   * @return array
+   *   Render array having markup as formatted datetime string.
    */
   public function getCurrentTime() {
     // Create datetime object.
